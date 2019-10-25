@@ -2,10 +2,10 @@ h1 {
 	text-decoration: underline;
 }
 
-p {
-	text-align: ;
+.inline {
+	display: inline;
 }
 
 body {
-	background-color: grey;
+	background-color: #C8CCCB;
 }
