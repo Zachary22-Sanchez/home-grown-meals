@@ -24,7 +24,7 @@
 
 <h1>Persona</h1>
 
-<img src="personapic.png"
+<img src="personapic.png" alt="persona" height="320" width="480">
 
 <h2>Name:</h2>
 <p>John Lawson</p>
