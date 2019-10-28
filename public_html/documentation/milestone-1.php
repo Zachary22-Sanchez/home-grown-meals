@@ -9,18 +9,17 @@
 
 <h2>Purpose</h2>
 
-<p>I would like my PWP to help me obtain the confidence I will need after this class by
-	applying the knowledge I’ve learned so far into building something from scratch that
-	can potentially be used by myself one day as my own business.</p>
+<p>The purpose of this site to view and order pre made meals to have delivered to your location.</p>
 
 <h2>Audience</h2>
 
-<p>Busy bodies to have zero time in their day to worry about cooking their own meals or
+<p>Busy bodies who have zero time in their day to worry about cooking their own meals or
 	having to take the time to go somewhere to pick something up.</p>
 
 <h2>Goal</h2>
 
-<p>To add to my gallery to showcase my work to eventually attract potential employers or clients. </p>
+<p>To add to my gallery to showcase my work to eventually attract potential employers or clients. As well as
+to possibly use the site for my own business one day.</p>
 
 <h1>Persona</h1>
 
