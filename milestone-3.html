@@ -8,12 +8,19 @@
 	<link rel="stylesheet" href="style.css">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<!-- jQuery, popper.js and Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			  crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			  crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			  crossorigin="anonymous"></script>
 
 	<title>Home Grown Meals</title>
 
@@ -22,9 +29,10 @@
 
 <!-- Header -->
 
-<div class="container-fluid">
+<div class="container">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
@@ -48,63 +56,98 @@
 
 <!-- Home page -->
 
-<div class="jumbotron jumbotron-fluid bg-dark" >
-	<div class="container">
-			<div class="row">
-				<div class="col-sm-6 btn-holder">
-					<img src="imageholder.webp" alt="holder" >
-				</div>
-				<div class="col-sm-6">
-					<h1 class="display-4">Home Grown Meals</h1>
-					<a class="btn btn-primary btn-lg" href="#" role="button">Place an order</a>
-				</div>
+<div class="container-fluid py-5">
+	<div class="jumbotron-fluid bg-dark jumbotron-image py-5 px-10">
+		<div class="btn-holder">
+			<div class="col-sm-6">
+				<h1 class="display-4">Home Grown Meals</h1>
+				<a class="btn btn-primary btn-lg" href="#" role="button">Our Meals</a>
 			</div>
-	</div>
-</div>
-
-<!-- Body about us -->
-
-<div class="container">
-	<h2>About us</h2>
-	<p>Local chef using fresh and local ingredients. This includes organic produce, non-gmo meals, hormone free chicken and farm raised beef.
-	All packaged in perfect serving size containers to heat up and enjoy.</p>
-</div>
-
-<!-- Our meals -->
-
-<h2>Our meals</h2>
-
-<!-- Contact form -->
-
-<section>
-	<div class="container">
-		<div class="form-wrapper">
-			<h2>Contact us to place an order today!</h2>
-			<form>
-				<div>
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div>
-					<label for="emailEmail">Email</label>
-					<input type="email" name="email" id="email" />
-				</div>
-				<div>
-					<label for="subject">Subject</label>
-					<input type="text" name="subject" id="subject" />
-				</div>
-				<div>
-					<label for="message">Meals</label>
-					<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
-				</div>
-				<button type="reset">Reset</button>
-				<button type="submit">Send!</button>
-			</form>
 		</div>
 	</div>
-</section>
+</div>
 
-<!-- footer -->
+	<!-- Body about us -->
+
+	<div class="container py-5 bg-success">
+		<h2>About us</h2>
+		<p>Local chef using fresh and local ingredients. This includes organic produce, non-gmo meals, hormone free
+			chicken and farm raised beef.
+			All packaged in perfect serving size containers to heat up and enjoy.</p>
+	</div>
+
+	<!-- Our meals -->
+
+
+	<div class="container py-5">
+		<h2>Our Meals..</h2>
+		<div class="card-deck">
+			<div class="card">
+				<img src="teriyaki.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Tariyaki Chicken & Veggies.</h5>
+					<p class="card-text">Organic cage free chicken thighs marinated in teriyaki served with mixed
+						veggies.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="..." class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+						content. This card has even longer content than the first to show that equal height action.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact form -->
+
+	<section>
+		<div class="container pt-5">
+			<div class="form-wrapper">
+				<h2>Contact us to place an order today!</h2>
+				<form>
+					<div>
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name"/>
+					</div>
+					<div>
+						<label for="email">Email</label>
+						<label for="email"></label><input type="email" name="email" id="email"/>
+					</div>
+					<div>
+						<label for="subject">Subject</label>
+						<input type="text" name="subject" id="subject"/>
+					</div>
+					<div>
+						<label for="message">Meals</label>
+						<textarea name="message" id="message" cols="30" rows="10" maxlength="1000"
+									 placeholder="1000 characters max"></textarea>
+					</div>
+					<button type="reset">Reset</button>
+					<button type="submit">Send!</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+
+	<div class="container-fluid pt-3">
+		<footer>
+			Copyright @2019
+		</footer>
+	</div>
 
 </body>
 </html>
