@@ -1,0 +1,39 @@
+/*
+Jumbotron
+ */
+.jumbotron-image {
+	background-image: url("HNM8DD.jpg");
+	background-size: cover;
+}
+
+/**
+global styles
+ */
+html body {
+	background-color: #C3C3C3;
+}
+
+body {
+	font-family: "Berlin Sans FB" !important;
+}
+
+/**
+about us
+ */
+
+section#about {
+	border: black 1px solid;
+	background: #E8414B;
+}
+
+/**
+contact form
+ */
+
+/**
+footer
+ */
+
+footer. {
+	display: block;
+}
