@@ -11,6 +11,13 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+	<!-- jQuerry for fancy apps -->
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 	<!-- jQuery, popper.js and Bootstrap JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity=
 		"sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
@@ -48,9 +55,10 @@
 
 <!-- Jumbotron -->
 
+
 <div id="back">
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light">
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-none">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 					  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -61,7 +69,7 @@
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="about">About</a>
+						<a class="nav-link" href="">About</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Meals</a>
@@ -73,12 +81,9 @@
 			</div>
 		</nav>
 	</div>
-
-	<div class="container py-5 px-5">
-		<h1 class="pt-6 header">Home Grown Meals</h1>
-		<div id="jumboText">
-			<h3>Order. Heat. Enjoy!</h3>
-		</div>
+	<h1 class="header d-flex justify-content">Home Grown Meals</h1>
+	<div id="jumboText">
+		<h3>Order. Heat. Enjoy!</h3>
 	</div>
 </div>
 
@@ -90,11 +95,11 @@
 		<div class="col-sm-3 col-lg-3">
 			<img class="img-fluid mx-auto d-block" src="chefin.jpg" alt="cheif">
 		</div>
-		<div class="col-sm-9 col-lg-9">
+		<div class="col-sm-9 col-lg-9 pt-4">
 			<h2>About Us...</h2>
 			<p>Delicious pre made meals served in perfect portion sized containers to heat up and enjoy. Local chef using
-				fresh and local ingredients. This includes organic produce, non-gmo meals, hormone free chicken and farm
-				raised beef. Place your order today!.</p>
+				fresh and local ingredients. This includes organic produce, hormone free chicken and farm
+				raised beef. All meals are gmo free. Place your order today!.</p>
 		</div>
 	</div>
 </section>
@@ -143,7 +148,7 @@
 		<h2>Place your order today!</h2>
 	</div>
 	<form id="zachary-form" action="../../php/" method="post">
-		<div class="form-group">
+		<div class="form-group pt-3">
 			<label for="name">Name <span class="text-danger">*</span></label>
 			<div class="input-group">
 				<div class="input-group-prepend">
