@@ -5,18 +5,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" href="style.css">
+	<title>Home Grown Meals</title>
+
+	<!--Link for web icon -->
+	<link rel="icon" href="documentation/zia2%20(1).ico">
+
+	<!--Css style sheet -->
+	<link rel="stylesheet" href="documentation/style.css">
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<!-- jQuerry for fancy apps -->
-
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
-	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 	<!-- jQuery, popper.js and Bootstrap JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity=
@@ -40,21 +40,17 @@
 			  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 	<!-- Your JavaScript Form Validator -->
-	<script src="../javaScript/form-validate.js"></script>
+	<script src="javaScript/form-validate.js"></script>
 
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 
-	<title>Home Grown Meals</title>
 
 </head>
 <body>
 
-<!-- Header/ navbar -->
 
-
-<!-- Jumbotron -->
-
+<!-- Navbar, Landing page with background image and header text  -->
 
 <div id="back">
 	<div class="container-fluid">
@@ -88,12 +84,12 @@
 </div>
 
 
-<!-- Body about us -->
+<!-- About us section, image and text -->
 
 <section class="container-fluid py-5 about" id="about">
 	<div class="row">
 		<div class="col-sm-3 col-lg-3">
-			<img class="img-fluid mx-auto d-block" src="chefin.jpg" alt="cheif">
+			<img class="img-fluid mx-auto d-block" src="documentation/chefin.jpg" alt="cheif">
 		</div>
 		<div class="col-sm-9 col-lg-9 pt-4">
 			<h2>About Us...</h2>
@@ -105,7 +101,7 @@
 </section>
 
 
-<!-- Our meals -->
+<!-- Meal sections with images and text -->
 
 <div class="container py-5">
 	<div id="meals">
@@ -113,7 +109,7 @@
 	</div>
 	<div class="card-deck">
 		<div class="card">
-			<img src="teriyaki.jpg" class="card-img-top" alt="...">
+			<img src="documentation/teriyaki2.jpg" class="card-img-top" alt="teriyaki">
 			<div class="card-body">
 				<h5 class="card-title">Tariyaki Chicken & Veggies.</h5>
 				<p class="card-text">Organic cage free chicken thighs marinated in teriyaki served with mixed
@@ -121,20 +117,17 @@
 			</div>
 		</div>
 		<div class="card">
-			<img src="..." class="card-img-top" alt="...">
+			<img src="documentation/steak.jpg" class="card-img-top" alt="steak">
 			<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				<h5 class="card-title">Salsibury Steak & Veggies</h5>
+				<p class="card-text">Salsibury steak made with farm raised beef with mushroom gravy served with mixed veggies.</p>
 			</div>
 		</div>
 		<div class="card">
-			<img src="..." class="card-img-top" alt="...">
+			<img src="documentation/soup2%20(1).jpg" class="card-img-top" alt="soup">
 			<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-					content. This card has even longer content than the first to show that equal height action.</p>
-				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				<h5 class="card-title">Sausage Kale Soup</h5>
+				<p class="card-text">Italian sausage with kale & yukon gold potatoes in a low calorie broth.</p>
 			</div>
 		</div>
 	</div>
@@ -143,11 +136,11 @@
 
 <!-- Contact form -->
 
-<div class="container pt-3 pb-3 px-3 col-sm-3 col-lg-6">
+<div class="container pt-3 pb-5 px-3 col-sm-3 col-lg-6">
 	<div id="contact">
 		<h2>Place your order today!</h2>
 	</div>
-	<form id="zachary-form" action="../../php/" method="post">
+	<form id="zachary-form" action="../php" method="post">
 		<div class="form-group pt-3">
 			<label for="name">Name <span class="text-danger">*</span></label>
 			<div class="input-group">
@@ -202,7 +195,7 @@
 <!-- footer -->
 
 <section id="footer">
-	<div class="container pt-3">
+	<div class="container-fluid pt-3">
 		<footer>
 			Home Grown Meals @2019
 		</footer>
