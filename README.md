@@ -13,3 +13,6 @@ Content strategy is straighforward and to the point. You're have what is necessa
 If you need additional resourcers for the development aspects of your project, feel free to reach out to the instructors so that we may guide you in the direction of some functionality you may be seeking. Continue on moving forward with the development of your PWP. Keep up the good work!
 
 This passes at Tier IV.
+
+## PWP Milestone 4 feedback
+Looks good! Design follows intended content strategy. Submitted on time, renders well on browser and mobile. Need to work on committing/pushing more frequently. This site passes Tier III. 
